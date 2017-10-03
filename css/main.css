@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+html,body{
+    height:100%;
+}
+
+html{
+	overflow-x:hidden;
+}
+
+body{
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color:#4E4E4E;
+    line-height: 22px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #4e4e4e;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+    color: #787878;
+    font-weight: 400;
+    line-height: 24px;
+}
+h4{
+    font-size: 16px;
+}
+
+body>section{
+    padding: 35px 0;
+}
+
+.center{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.center h2{
+    font-size: 36px;
+    margin-top:0;
+    margin-bottom: 20px;
+}
+
+.pd .detail h2{
+  font-size: 25px;
+
+}
+
+.sub-detail h4 span{
+    font-style: oblique;
+    font-weight: 600;
+}
+.sub-detail h4{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sub-detail h2{
+    font-style: oblique;
+    font-weight: 300;
+}
+
+#middle{
+    background: #f2f2f2;
+}
+
+.pd .detail h2{
+    font-size: 25px;
+}
+
+.pd_row { margin:30px -15px;}
+
+.pd_detail {margin-top:0px}
+.pd_detail h3 {color: #2a2a2a; font-weight: bold; font-size:20px; line-height:25px}
+.pd_detail h4 {margin-bottom:25px} 
+.pd_detail p span {color: #2a2a2a; font-weight: bold;} 
+
+.pd_head_detail {text-align:left;}
+.pd_head_detail h2 {color: #777777; font-size:25px; font-weight:600; line-height:30px}
+.divider {margin-top: 41px; border-bottom: 1px solid #efefef;}
+.grey_divider {margin-top: 41px; border-bottom: 1px solid #d6d6d6;}
+
+
+.table_spec h3{
+    font-size:16px;
+    color:#c5262f;
+    font-weight:400;
+    line-height:24px;
+}
+
+.table_divider{
+    margin:10px 0;
+    border-bottom:1px solid #efefef;
+}
+.table_divider_grey{
+    margin:10px 0;
+    border-bottom:1px solid #e2e2e2;
+}
+
+.dn_head h3{font-size:20px;color:#c52d2f;font-weight:400;line-height:24px}
+
+
+.download-img{border:1px solid #e2e2e2;}
+
+.download-img-grey{border:1px solid #d6d6d6;}
+
+
+.navbar{
+    background-image:none;
+}
+
+.navbar-inverse{
+    border-radius:0;
+    border:none;
+    background-color:#151515;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+
+.navbar-inverse .navbar-brand{
+    color:#ccc;
+    font-size:20px;
+		padding:10px 15px 15px 15px;
+}
+
+.navbar-inverse .navbar-nav > li {
+    margin:0 7px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color:#fff;
+    font-size:17px;
+    padding:10px 7px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active.open > a:focus{
+    background-color:#c52d2f;
+    border-radius: 6px;
+    
+}
+
+.navbar-inverse .navbar-nav > li:not(.active) > a:hover{
+    background-color:#c5262f;
+    border-radius: 6px;
+    -moz-animation: background-in 0.4s;
+    animation: background-in 0.4s;
+}
+
+ul.nav > li.dropdown > ul.dropdown-menu{
+    background-color: #151515;
+
+}
+ul.nav > li.dropdown > ul.dropdown-menu > li > a{
+    color:#fff;
+}
+
+ul.nav > li.dropdown > ul.dropdown-menu > li > a:hover{
+    background-color: #c5262f;
+}
+
+
+.navbar-inverse .navbar-nav > li.open > a:focus{
+    background-color:#151515;
+}
+
+@keyframes background-in{
+    from {background-color:#151515;}
+    to {background-color:#c5262f;}
+}
+@-moz-keyframes background-in{
+    from {background-color:#151515;}
+    to {background-color:#c5262f;}
+}
+
+#gmap{
+    display:block;
+    width:100%;
+    height:300px;
+}
+
+.p_desc > h3{
+    font-size:27px;
+    color:#4e4e4e;
+}
+.p_desc > h4{
+    color:#707070;
+}
+
+.p_links > a,
+.p_links > a:hover,
+.p_links > a:focus{
+    border:1px solid #000;
+}
+.p_links > a,
+.p_links > a:active,
+.p_links > a:active:focus,
+.p_links > a:focus{
+    background-color:#c5262f;
+    
+}
+
+.p_links > a:hover
+{
+    background-color:#ec555e;
+}
+
+.pl_right > a{
+    margin-left:15px;
+}
+
+.pl_left > a{
+    margin-right:15px;
+}
+
+.navbar-inverse .navbar-right > li{
+    margin:0;
+}
